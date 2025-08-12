@@ -1,6 +1,3 @@
-ls -la
-python3 -m pip install -r requirements.txt
-python3 -m pip list
 import sys
 import pkg_resources
 
