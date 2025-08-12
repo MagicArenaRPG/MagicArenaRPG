@@ -1,4 +1,10 @@
+import sys
+import pkg_resources
 
+print("Python version:", sys.version)
+print("Installed packages:", [p.project_name for p in pkg_resources.working_set])
+
+import requests
 import logging
 import os
 import json
